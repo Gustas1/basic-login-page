@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+        </head>
+
+        <body class = "bg">
+
+            <div id = "buttonstuff">
+                <button id = "drkMode" class = "drkModeClass" onclick = "darkMode()">
+                    <div id = "circleBtn" class = "circleBtnClass"></div>
+                </button>
+            </div>
+
+            <div id = "container">
+                
+                <!-- main (sign up page) -->
+                <div id = "main">
+
+                    <div style = "width: 100px; height: 100px; border-radius: 50%; background-color: black;"></div>
+
+                    <p style = "text-align: left;">Username <span id = "usererror" style = "color: red"></span></p>
+                    
+                        <input type = "text" placeholder = "Username" id = "username">
+                    
+                    <p>Email Address</p>
+
+                        <input type = "text" placeholder = "Email Address" id = "email">
+
+                    <p>Password <span id = "cpasserror" style = "color: red"></span></p>
+
+                        <input type = "text" placeholder = "Password" id = "password">
+
+                    <p>Confirm Password</p> 
+
+                        <input type = "text" placeholder = "Confirm Password" id = "conpassword">
+
+                    <button id = "sign-up" class = "sign-up-class" onclick = "getData()">Sign Up</button>
+
+                    <button id = "signgoogle">
+                        <img src = "img/google.png" class = "google">
+
+                        <p>Sign in with Google</p>
+                    </button>
+
+                    <p class = "normal-text" style = "margin-top: 35px;">Already have an account?</p>
+
+                    <button class = "clicky" onclick = "signin()">
+                        <p class = "normal-text">Click here</p>
+                    </button>
+
+                </div>
+
+                <!-- Sub div (Sign in) -->
+                <div id = "sub">
+                    <h1>:P</h1>
+    
+                     <button class = "clicky" onclick = "signin()">
+                        <p class = "normal-text">Click here</p>
+                    </button>
+    
+                </div>
+
+            </div>
+
+           
+
+            <script src = "script/script.js"></script>
+
+        </body>
+    </html>
