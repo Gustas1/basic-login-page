@@ -70,6 +70,9 @@ function darkMode() {
         swap("drkMode", "drkModeClassActive");
         swap("circleBtn", "circleBtnClassDark");
         swap("sign-up", "sign-up-class-drk")
+        swap("clicky1", "clickydark");
+        swap("clicky2", "clickydark");
+        swap("sign-in", "sign-in-dark");
         document.body.classList.toggle("bgdrk");
     }
     if (i % 2 != 0) {
@@ -77,6 +80,9 @@ function darkMode() {
         swap("drkMode", "drkModeClassActive");
         swap("circleBtn", "circleBtnClassDark");
         swap("sign-up", "sign-up-class-drk")
+        swap("clicky1", "clickydark");
+        swap("clicky2", "clickydark");
+        swap("sign-in", "sign-in-dark");
         document.body.classList.toggle("bgdrk");
     }
     i++;

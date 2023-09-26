@@ -19,19 +19,19 @@
 
                     <div style = "width: 100px; height: 100px; border-radius: 50%; background-color: black;"></div>
 
-                    <p style = "text-align: left;">Username <span id = "usererror" style = "color: red"></span></p>
+                    <p style = "text-align: left; margin-bottom: 10px;">Username <span id = "usererror" style = "color: red"></span></p>
                     
                         <input type = "text" placeholder = "Username" id = "username">
                     
-                    <p>Email Address</p>
+                    <p style = "margin-bottom: 10px;">Email Address</p>
 
                         <input type = "text" placeholder = "Email Address" id = "email">
 
-                    <p>Password <span id = "cpasserror" style = "color: red"></span></p>
+                    <p style = "margin-bottom: 10px;">Password <span id = "cpasserror" style = "color: red"></span></p>
 
                         <input type = "text" placeholder = "Password" id = "password">
 
-                    <p>Confirm Password</p> 
+                    <p style = "margin-bottom: 10px;">Confirm Password</p> 
 
                         <input type = "text" placeholder = "Confirm Password" id = "conpassword">
 
@@ -45,7 +45,7 @@
 
                     <p class = "normal-text" style = "margin-top: 35px;">Already have an account?</p>
 
-                    <button class = "clicky" onclick = "signin()">
+                    <button id = "clicky1" class = "clicky" onclick = "signin()">
                         <p class = "normal-text">Click here</p>
                     </button>
 
@@ -53,9 +53,23 @@
 
                 <!-- Sub div (Sign in) -->
                 <div id = "sub">
-                    <h1>:P</h1>
+                    <h1>Sign In</h1>
+
+                    <div style = "width: 100px; height: 100px; border-radius: 50%; background-color: black;"></div>
+
+                    <p style = "text-align: left; margin-bottom: 10px">Username <span id = "usererror" style = "color: red"></span></p>
+                    
+                        <input type = "text" placeholder = "Username" id = "username">
+                    
+                    <p style = "margin-bottom: 10px;">Password <span id = "cpasserror" style = "color: red"></span></p>
+
+                        <input type = "text" placeholder = "Password" id = "password">
+
+                    <button id = "sign-in" class = "sign-up-class" onclick = "">Sign In</button>
+
+                    <p style = "text-align: center;">Don't have an account?</p>
     
-                     <button class = "clicky" onclick = "signin()">
+                     <button id = "clicky2" class = "clicky" onclick = "signin()">
                         <p class = "normal-text">Click here</p>
                     </button>
     

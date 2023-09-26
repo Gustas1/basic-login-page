@@ -40,8 +40,11 @@ body {
 /*  */
 
 input {
-    height: 30px;
+    height: 35px;
     padding-left: 10px;
+
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 button {
@@ -103,14 +106,21 @@ button {
 }
 
 .clicky {
+    transition: 0.5s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
 
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 0, 0);
 
-    border: 0px;
-    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px solid black;
+    background-color: rgba(156, 0, 60, 0.3);
+    border-radius: 25px;
+}
+
+.clicky:hover {
+    background-color: rgba(156, 0, 60, 0.5);
+    color: white;
 }
 
 /*  */
@@ -191,6 +201,39 @@ button {
     
     border: 1px solid black;
     border-radius: 50px;
+
+    margin-top: 12vh;
+}
+
+#sign-in {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    height: 50px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    border: 0px;
+    border-radius: 15px;
+}
+
+.sign-in-dark {
+    background-color: rgb(146, 226, 249);
+    color: black;
+}
+
+.clickydark {
+    transition: 0.5s;
+    color: white;
+    background-color: rgba(146, 226, 249, 0.3);
+
+}
+
+.clickydark:hover {
+    color: black;
+    background-color: rgba(146, 226, 249, 0.5);
 }
 
 .class { 
