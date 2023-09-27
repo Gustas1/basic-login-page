@@ -52,6 +52,7 @@ button {
 }
 
 #sign-up {
+    transition: 0.5s;
     margin-top: 25px;
     height: 50px;
 
